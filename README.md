@@ -149,3 +149,29 @@ El acceso al sistema web se lo realiza a través del siguiente enlace.
 En el video a continuación se presenta la explicación a detalle de este componente.
 <br>
 <p align="center"><a href="https://www.youtube.com/watch?v=Oh3jnjLdypo" target="_blank"><strong>Video explicativo »</strong></a></p>
+
+Flutter
+Flutter es un framework de código abierto desarrollado por Google para crear aplicaciones móviles para Android e iOS con un solo código base. Algunas de las ventajas de utilizar Flutter para el desarrollo de un login son:
+
+Rendimiento: Flutter utiliza su propio motor de renderizado, lo que le permite tener un alto rendimiento en la renderización de elementos de la interfaz de usuario.
+Personalización: Flutter permite personalizar la apariencia del login utilizando widgets personalizados o creando nuevos widgets desde cero.
+Facilidad de implementación: Flutter ofrece una gran cantidad de widgets predefinidos, lo que facilita la implementación de la interfaz de usuario del login.
+Hot Reload: Flutter cuenta con la función de Hot Reload, lo que permite realizar cambios en el código y visualizar los resultados en tiempo real.
+Xamarin
+Xamarin es una plataforma de desarrollo móvil que permite crear aplicaciones nativas para iOS, Android y Windows Phone utilizando el lenguaje de programación C#. Algunas de las ventajas de utilizar Xamarin para el desarrollo de un login son:
+
+Compartición de código: Xamarin permite compartir el código entre las diferentes plataformas, lo que reduce el tiempo y costo de desarrollo.
+Acceso nativo a API: Xamarin permite acceder a las API nativas de cada plataforma, lo que permite utilizar todas las funcionalidades del dispositivo en el login.
+Visual Studio: Xamarin se integra perfectamente con Visual Studio, lo que permite una mayor productividad en el desarrollo.
+Android Nativo
+Android Nativo es el desarrollo de aplicaciones móviles para la plataforma Android utilizando el lenguaje de programación Java o Kotlin. Algunas de las ventajas de utilizar Android Nativo para el desarrollo de un login son:
+
+Acceso completo a las API nativas: Android Nativo permite acceder a todas las API nativas de Android, lo que permite utilizar todas las funcionalidades del dispositivo en el login.
+Rendimiento: Las aplicaciones desarrolladas en Android Nativo tienen un alto rendimiento debido a que se ejecutan directamente en la plataforma Android.
+Gran comunidad de desarrolladores: Existe una gran comunidad de desarrolladores de Android Nativo, lo que facilita la resolución de problemas y la obtención de información.
+Ionic
+Ionic es un framework de desarrollo de aplicaciones móviles que utiliza tecnologías web como HTML, CSS y JavaScript. Algunas de las ventajas de utilizar Ionic para el desarrollo de un login son:
+
+Multiplataforma: Ionic permite desarrollar aplicaciones para Android e iOS utilizando el mismo código base.
+Facilidad de desarrollo: Ionic utiliza tecnologías web, lo que permite a los desarrolladores web crear aplicaciones móviles sin la necesidad de aprender un nuevo lenguaje de programación.
+Gran cantidad de plugins: Ionic cuenta con una gran cantidad de plugins que permiten utilizar las funcionalidades del dispositivo en la aplicación.
