@@ -46,6 +46,10 @@
 En el desarrollo de aplicaciones móviles, uno de los aspectos más importantes es la autenticación de usuarios mediante un sistema de login. Existen diversas herramientas y tecnologías para desarrollar esta funcionalidad, entre las cuales destacan Flutter, Xamarin, Android Nativo e Ionic. A continuación, se realizará una comparación entre estas cuatro opciones en el desarrollo de un login.
 <br>
 
+<br>
+<p align="center"><a href="https://www.tiktok.com/@migueleduardocuen/video/7209897783321513222?_r=1&_t=8abPLwgsOwf" target="_blank"><strong>Video en red Social</strong></a></p>
+<br>
+
 # Descarga e instalación del trabajo
 
  1. Para la instalación del trabajo debemos descargar el archivo .zip, desde el repositorio.
@@ -57,12 +61,12 @@ En el desarrollo de aplicaciones móviles, uno de los aspectos más importantes 
 
 # Herramientas desarrollo movil
 
-Comparacion D: 
+Comparacion de las herramientas de desarrollo movil: 
 
 <br>
 <p align="center">
     <a>
-        <img src="https://scontent.fuio10-1.fna.fbcdn.net/v/t1.15752-9/331631871_1003418617711629_5092243518265142120_n.png?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGeUg3FFKU-nliCq0uJ-Q_2Jc29PPqJjB8lzb08-omMH2IA2XHv3Aa9HZf4RUv4aSD13p1BjiKLYKEiMtFIT6fD&_nc_ohc=JdL1_Yo86nkAX_-JRYM&_nc_ht=scontent.fuio10-1.fna&oh=03_AdTK1cESetSjUj1dvdQzAAzJY23QGsn_bFAq9JyHVTrDiQ&oe=641CCBE4" alt="Logo" width="700"         height="400">
+        <img src="https://i.ibb.co/VWjWR8W/Screenshot-20230313-000414.png" alt="Logo" width="588" height="652">
     </a>
  </p>
 <br>
@@ -147,7 +151,6 @@ El acceso a los archivos APK.
 
 En el video a continuación se presenta la explicación a detalle de este componente.
 <br>
-<p align="center"><a href="https://www.youtube.com/watch?v=Oh3jnjLdypo" target="_blank"><strong>Video explicativo »</strong></a></p>
-
+<p align="center"><a href="https://www.youtube.com/watch?v=ynaRkDSZ5hs" target="_blank"><strong>Video explicativo »</strong></a></p>
 
 
