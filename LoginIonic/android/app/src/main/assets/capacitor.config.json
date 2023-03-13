@@ -1,6 +1,6 @@
 {
 	"appId": "io.ionic.starter",
-	"appName": "devdacticFire",
+	"appName": "LoginIonic",
 	"webDir": "www",
 	"bundledWebRuntime": false
 }

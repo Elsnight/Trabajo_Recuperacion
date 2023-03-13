@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/profilebkg"
+    tools:context=".SingUpActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="14dp"
+            android:background="@drawable/lavender_border">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrate"
+                android:textSize="26sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+
+                android:textColor="@color/lavender"/>
+
+<!--            <EditText-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:id="@+id/signup_name"-->
+<!--                android:background="@drawable/lavender_border"-->
+<!--                android:layout_marginTop="40dp"-->
+<!--                android:padding="8dp"-->
+<!--                android:hint="Nombres"-->
+<!--                android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                android:drawablePadding="8dp"-->
+<!--                android:textColor="@color/black" />-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/nickNameEt"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:hint="Nombre"
+                android:drawableLeft="@drawable/baseline_person_pin_24"
+                android:drawablePadding="5dp"
+                android:textColor="@color/black" />
+
+<!--            android:id="@+id/signup_email"-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/emailEt"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:hint="Email"
+                android:textSize="15sp"
+
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="5dp"
+                android:textColor="@color/black" />
+<!--            android:id="@+id/signup_username"-->
+
+
+<!--            android:id="@+id/signup_password"-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/passET"
+                android:textSize="15sp"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="5dp"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:id="@+id/confirmPassEt"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:hint="Confirma contraseña"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawablePadding="5dp"
+                android:textColor="@color/black" />
+
+
+<!--            android:id="@+id/signup_button"-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Registro"
+                android:id="@+id/button"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                app:cornerRadius ="20dp"/>
+
+<!--            android:id="@+id/LoginRedirectText"-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:text="Ya ere susuario ? Iniciar sesion"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/lavender" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/profile_photo"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@drawable/signup_screen"-->
+<!--    tools:context=".SingUpActivity">-->
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/nickNameLayout"-->
+<!--        style="@style/LoginTextInputOuterFieldStyle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="16dp"-->
+<!--        app:boxStrokeColor="@color/yellow"-->
+<!--        app:hintTextColor="@color/yellow"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.474">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/nickNameEt"-->
+<!--            style="@style/LoginTextInputInnerFieldStyle"-->
+
+<!--            android:hint="Nick - Name"-->
+<!--            android:inputType="textEmailAddress" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/emailLayout"-->
+<!--        style="@style/LoginTextInputOuterFieldStyle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="16dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        app:boxStrokeColor="@color/yellow"-->
+<!--        app:hintTextColor="@color/yellow"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/nickNameLayout">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/emailEt"-->
+<!--            style="@style/LoginTextInputInnerFieldStyle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Email"-->
+<!--            android:inputType="textEmailAddress" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/passwordLayout"-->
+<!--        style="@style/LoginTextInputOuterFieldStyle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="16dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        app:boxStrokeColor="@color/yellow"-->
+<!--        app:hintTextColor="@color/yellow"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/emailLayout"-->
+<!--        app:passwordToggleEnabled="true">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/passET"-->
+<!--            style="@style/LoginTextInputInnerFieldStyle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Contraseña"-->
+<!--            android:inputType="textPassword" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/confirmPasswordLayout"-->
+<!--        style="@style/LoginTextInputOuterFieldStyle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="16dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        app:boxStrokeColor="@color/yellow"-->
+<!--        app:hintTextColor="@color/yellow"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/passwordLayout"-->
+<!--        app:passwordToggleEnabled="true">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/confirmPassEt"-->
+<!--            style="@style/LoginTextInputInnerFieldStyle"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Confirmar Contraseña"-->
+<!--            android:inputType="textPassword" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginHorizontal="16dp"-->
+<!--        android:background="@color/yellow"-->
+<!--        android:text="Registrarse"-->
+<!--        android:textColor="#9E9E9E"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/confirmPasswordLayout"-->
+<!--        app:layout_constraintVertical_bias="0.234" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="¿Ya estas Registrado?, Inicia Sesión"-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="153dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:autoSizeMaxTextSize="5dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Registrate"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.041" />-->
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
