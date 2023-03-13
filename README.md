@@ -130,7 +130,13 @@ Ionic es un framework de desarrollo de aplicaciones móviles que utiliza tecnolo
 
 # Enlaces de las apks
 
-El acceso a los archivos APK.
+El acceso a los archivos APK:
+
+Usuario para probar la aplicacion:
+
+- correo : testusuario@gmail.com
+- contraseña: root12
+
 <br>
 <p align="center"><a href="https://drive.google.com/file/d/1_Gq4Ts4w5q4nqtKPyO8Xt3Ix1SDQUjsV/view?usp=share_link" target="_blank"><strong>Flutter»</strong></a></p>
 <br>
