@@ -16,21 +16,22 @@
     <br>
   <ol>
       <li>
-      <a href="#Descripcion">Descripcion</a>
+      <a href="#descripcion">Descripcion</a>
     </li>
     <li>
       <a href="#descarga-e-instalación-del-trabajo">Descarga e instalación del trabajo</a>
     </li>
     <li>
-      <a href="#perfiles-de-usuario">Perfiles de usuario</a>
+      <a href="#herramientas-desarrollo-movil">Herramientas desarrollo movil</a>
       <ul>
-        <li><a href="#funcionalidades-del-usuario-administrador">Funcionalidades del usuario administrador</a></li>
-        <li><a href="#funcionalidades-del-usuario-cliente">Funcionalidades del usuario cliente</a></li>
-        <li><a href="#funcionalidades-del-usuario-cocinero">Funcionalidades del usuario cocinero</a></li>
+        <li><a href="#flutter">Flutter</a></li>
+        <li><a href="#xamarin">Xamarin</a></li>
+        <li><a href="#android-nativo">Android Nativo</a></li>
+        <li><a href="#ionic">Ionic</a></li>
       </ul>
     </li>
     <li>
-      <a href="#acceso-al-componente-backend">Acceso al componente backend</a>
+      <a href="#enlaces-de-las-apks">Enlaces de las apks</a>
     </li>
     <li>
         <a href="#video-explicativo-del-funcionamiento">Video explicativo del funcionamiento</a>
@@ -49,45 +50,14 @@ En el desarrollo de aplicaciones móviles, uno de los aspectos más importantes 
 
  1. Para la instalación del trabajo debemos descargar el archivo .zip, desde el repositorio.
 
- 2. Una ves descargado el proyecto, los descoprimimos y desde la carpeta del proyecto vamos a tener 4 carpetas con su respectivo login.
+ 2. Una ves descargado el proyecto, los desconprimimos y desde la carpeta del proyecto vamos a tener 4 carpetas con su respectivo login.
 
- 3. De acuerdo a las herramientas podemos usar Visual Estduio Code, Android Studio o Visual estudio para xamarin.
+ 3. De acuerdo a las herramientas podemos usar Visual Estudio Code, Android Studio o Visual estudio para xamarin.
 
-    ```
-    npm install
-    ```
 
-  4. Para ejecutar el proyecto de manera local se debe ejecutar el siguiente comando:
+# Herramientas desarrollo movil
 
-     ```
-     npm run dev
-     ```
-   5. Bien echo, ahora tienes el proyecto ejecutandose y funcionando correctamente. Se nos presentara una imagen como la siguiente:
-
-        <br>
-        <p align="center">
-            <a>
-                <img src="https://i.ibb.co/YQQJjTj/Whats-App-Image-2023-03-06-at-02-10-15.jpg" alt="Logo" width="700" height="200">
-            </a>
-         </p>
-        <br>
-        
-   5. Para poder entrar a la documentacion es necesario agregar ```/docs```:
-
-        <br>
-        <p align="center">
-            <a>
-                <img src="https://i.ibb.co/X3wQ12T/Whats-App-Image-2023-03-06-at-02-17-42.jpg" width="700" height="500">
-            </a>
-         </p>
-        <br>
-        
-
-      
-
-# Perfiles de usuario
-
-Los perfiles de usuario que maneja el sistema son: 
+Comparacion D: 
 
 <br>
 <p align="center">
@@ -97,51 +67,80 @@ Los perfiles de usuario que maneja el sistema son:
  </p>
 <br>
 
-### Funcionalidades del usuario ADMINISTRADOR
+### Flutter
 
-Como parte de las funcionalidades a las que puede acceder el usuario superadministrador se tienen:
-<br>
+Flutter es un framework de código abierto desarrollado por Google para crear aplicaciones móviles para Android e iOS con un solo código base. Algunas de las ventajas de utilizar Flutter para el desarrollo de un login son:<br>
 <ul>
-    <li>Iniciar sesión en el sistema.</li>
-    <li>Modificar su perfil</li>
-    <li>Generar usuarios cocineros.</li>
-    <li>Gestionar el menú de los almuerzos.</li>
-    <li>Visualizar el pedido y la factura pagada.</li>
-    <li>Crear al perfil cocinero.</li>
+    <li>Rendimiento: Flutter utiliza su propio motor de renderizado, lo que le permite tener un alto rendimiento en la renderización de elementos de la interfaz de usuario..</li>
+    <li>Personalización: Flutter permite personalizar la apariencia del login utilizando widgets personalizados o creando nuevos widgets desde cero.
+Facilidad de implementación: Flutter ofrece una gran cantidad de widgets predefinidos, lo que facilita la implementación de la interfaz de usuario del login.</li>
+    <li>Hot Reload: Flutter cuenta con la función de Hot Reload, lo que permite realizar cambios en el código y visualizar los resultados en tiempo real.
+.</lie>
 </ul>
 <br>
 
-### Funcionalidades del usuario CLIENTE
+### Xamarin
 
-Las funcionalidades a las que puede acceder el usuario administrador son:
+Xamarin es una plataforma de desarrollo móvil que permite crear aplicaciones nativas para iOS, Android y Windows Phone utilizando el lenguaje de programación C#. Algunas de las ventajas de utilizar Xamarin para el desarrollo de un login son:
 <br>
 <ul>
-    <li>Registrarse.</li>
-    <li>Iniciar sesión en el sistema.</li>
-    <li>Modificar su perfil.</li>
-    <li>Gestionar pedido.</li>
-    <li>Confirmar el pedido y cargar el comprobante de pago.</li>        
-    <li>Visualizar el estado del pedido.</li>
+    <li>Compartición de código: Xamarin permite compartir el código entre las diferentes plataformas, lo que reduce el tiempo y costo de desarrollo.
+.</li>
+    <li>Acceso nativo a API: Xamarin permite acceder a las API nativas de cada plataforma, lo que permite utilizar todas las funcionalidades del dispositivo en el login..</li>
+    <li>Visual Studio: Xamarin se integra perfectamente con Visual Studio, lo que permite una mayor productividad en el desarrollo.
+.</li>
 </ul>
 <br>
 
-### Funcionalidades del usuario COCINERO
 
-Las funcionalidades a las que puede acceder el usuario administrador son:
+
+### Android Nativo
+
+Android Nativo es el desarrollo de aplicaciones móviles para la plataforma Android utilizando el lenguaje de programación Java o Kotlin. Algunas de las ventajas de utilizar Android Nativo para el desarrollo de un login son:
 <br>
 <ul>
-    <li>Iniciar sesión en el sistema.</li>
-    <li>Modificar su perfil.</li>
-    <li>Visualizar los pedidos asignados.</li>
-    <li>Cambiar el estado de los pedidos.</li>        
+    <li>Acceso completo a las API nativas: Android Nativo permite acceder a todas las API nativas de Android, lo que permite utilizar todas las funcionalidades del dispositivo en el login..</li>
+    <li>Rendimiento: Las aplicaciones desarrolladas en Android Nativo tienen un alto rendimiento debido a que se ejecutan directamente en la plataforma Android.
+.</li>
+    <li>Gran comunidad de desarrolladores: Existe una gran comunidad de desarrolladores de Android Nativo, lo que facilita la resolución de problemas y la obtención de información..</li>
 </ul>
 <br>
 
-# Acceso al componente backend
 
-El acceso al sistema web se lo realiza a través del siguiente enlace.
+### Ionic
+
+Ionic es un framework de desarrollo de aplicaciones móviles que utiliza tecnologías web como HTML, CSS y JavaScript. Algunas de las ventajas de utilizar Ionic para el desarrollo de un login son:
 <br>
-<p align="center"><a href="https://app-cafeteriacackend.herokuapp.com/docs/" target="_blank"><strong>Acceso al sistema web »</strong></a></p>
+<ul>
+    <li>Multiplataforma: Ionic permite desarrollar aplicaciones para Android e iOS utilizando el mismo código base.
+.</li>
+    <li>Facilidad de desarrollo: Ionic utiliza tecnologías web, lo que permite a los desarrolladores web crear aplicaciones móviles sin la necesidad de aprender un nuevo lenguaje de programación
+.</li>
+    <li>Gran cantidad de plugins: Ionic cuenta con una gran cantidad de plugins que permiten utilizar las funcionalidades del dispositivo en la aplicación.
+.</li>
+</ul>
+<br>
+
+
+
+
+# Enlaces de las apks
+
+El acceso a los archivos APK.
+<br>
+<p align="center"><a href="https://drive.google.com/file/d/1_Gq4Ts4w5q4nqtKPyO8Xt3Ix1SDQUjsV/view?usp=share_link" target="_blank"><strong>Flutter»</strong></a></p>
+<br>
+
+<br>
+<p align="center"><a href="https://drive.google.com/file/d/1gT6NZYPyHlpjfl7J1BAritp87w7xkGqj/view?usp=share_link" target="_blank"><strong>Xamarin»</strong></a></p>
+<br>
+
+<br>
+<p align="center"><a href="https://drive.google.com/file/d/1QnZMMxdyK8SpzK6CRA7NgnACj5QH-aB0/view?usp=share_link" target="_blank"><strong>Nativo»</strong></a></p>
+<br>
+
+<br>
+<p align="center"><a href="https://drive.google.com/file/d/1edmUT8yBelmLsdYilgIXhV0EUYRaq2fe/view?usp=share_link" target="_blank"><strong>Ionic»</strong></a></p>
 <br>
 
  # Video explicativo del funcionamiento
@@ -150,28 +149,5 @@ En el video a continuación se presenta la explicación a detalle de este compon
 <br>
 <p align="center"><a href="https://www.youtube.com/watch?v=Oh3jnjLdypo" target="_blank"><strong>Video explicativo »</strong></a></p>
 
-Flutter
-Flutter es un framework de código abierto desarrollado por Google para crear aplicaciones móviles para Android e iOS con un solo código base. Algunas de las ventajas de utilizar Flutter para el desarrollo de un login son:
 
-Rendimiento: Flutter utiliza su propio motor de renderizado, lo que le permite tener un alto rendimiento en la renderización de elementos de la interfaz de usuario.
-Personalización: Flutter permite personalizar la apariencia del login utilizando widgets personalizados o creando nuevos widgets desde cero.
-Facilidad de implementación: Flutter ofrece una gran cantidad de widgets predefinidos, lo que facilita la implementación de la interfaz de usuario del login.
-Hot Reload: Flutter cuenta con la función de Hot Reload, lo que permite realizar cambios en el código y visualizar los resultados en tiempo real.
-Xamarin
-Xamarin es una plataforma de desarrollo móvil que permite crear aplicaciones nativas para iOS, Android y Windows Phone utilizando el lenguaje de programación C#. Algunas de las ventajas de utilizar Xamarin para el desarrollo de un login son:
 
-Compartición de código: Xamarin permite compartir el código entre las diferentes plataformas, lo que reduce el tiempo y costo de desarrollo.
-Acceso nativo a API: Xamarin permite acceder a las API nativas de cada plataforma, lo que permite utilizar todas las funcionalidades del dispositivo en el login.
-Visual Studio: Xamarin se integra perfectamente con Visual Studio, lo que permite una mayor productividad en el desarrollo.
-Android Nativo
-Android Nativo es el desarrollo de aplicaciones móviles para la plataforma Android utilizando el lenguaje de programación Java o Kotlin. Algunas de las ventajas de utilizar Android Nativo para el desarrollo de un login son:
-
-Acceso completo a las API nativas: Android Nativo permite acceder a todas las API nativas de Android, lo que permite utilizar todas las funcionalidades del dispositivo en el login.
-Rendimiento: Las aplicaciones desarrolladas en Android Nativo tienen un alto rendimiento debido a que se ejecutan directamente en la plataforma Android.
-Gran comunidad de desarrolladores: Existe una gran comunidad de desarrolladores de Android Nativo, lo que facilita la resolución de problemas y la obtención de información.
-Ionic
-Ionic es un framework de desarrollo de aplicaciones móviles que utiliza tecnologías web como HTML, CSS y JavaScript. Algunas de las ventajas de utilizar Ionic para el desarrollo de un login son:
-
-Multiplataforma: Ionic permite desarrollar aplicaciones para Android e iOS utilizando el mismo código base.
-Facilidad de desarrollo: Ionic utiliza tecnologías web, lo que permite a los desarrolladores web crear aplicaciones móviles sin la necesidad de aprender un nuevo lenguaje de programación.
-Gran cantidad de plugins: Ionic cuenta con una gran cantidad de plugins que permiten utilizar las funcionalidades del dispositivo en la aplicación.
